@@ -44,6 +44,24 @@ h6{
     color: #D8D8D8;
 }
 
+button{
+
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+    button:hover{
+        background-color: orange;
+    }
+}
+
 .navbar{
 
     font-size: 16px;
@@ -76,3 +94,46 @@ h6{
     margin-left: 5px;
 }
 
+@media only screen and (max-width:990px) {
+
+    .nav_buttons{
+        margin: 10px;
+
+        ul.fas{
+            margin: 20px 5px 10px 20px;
+        }
+
+        ul.far{
+            margin: 20px 5px 10px 20px;
+        }
+    }
+
+    .nav_buttons ul{
+        margin: 1rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    
+    
+}
+
+#home{
+    background-image: url('https://images.unsplash.com/photo-1603252109612-24fa03d145c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    // background-position-x: 90px;
+    // background-position-y: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    span{
+
+        color: cornsilk;
+
+    }
+}
