@@ -182,4 +182,45 @@ button button:hover {
 #new .one .details:hover {
   background-color: darkgoldenrod;
 }
+
+.product {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.product img {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.product:hover img {
+  opacity: 0.7;
+}
+
+.product .b-btn {
+  background-color: #fb774b;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  opacity: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.product:hover .b-btn {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  opacity: 1;
+}
+
+hr {
+  width: 30px;
+  height: 3px !important;
+  opacity: 1 !important;
+  background-color: #fb774b;
+}
+
+.star i {
+  font: 0.9rem;
+  color: goldenrod;
+}
 /*# sourceMappingURL=style.css.map */
